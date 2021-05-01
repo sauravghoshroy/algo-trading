@@ -20,6 +20,7 @@ The algorithm is designed to include a sentiment factor in addition to basic Mov
 	
 	**For Mac & Linux:**
 		
+		cd algo-trading
 		sudo pip install virtualenv 
 		virtualenv trading
 		source trading/bin/activate
