@@ -12,7 +12,7 @@ The algorithm is designed to include a sentiment factor in addition to basic Mov
 ## Running the algorithm
 1. **Clone the repository:** To clone this repository run the following commands in terminal
 
-	git clone https://github.com/sauravghoshroy/algo-trading.git
+		git clone https://github.com/sauravghoshroy/algo-trading.git
 
 2. **Update API information:** From the repo locate the secrets-alpaca.trading file and open with any text editor. Enter your API details in the relevant lines. Make sure to not leave any space between your API information and the = sign. Save the file and close it.
 
