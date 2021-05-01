@@ -20,16 +20,17 @@ The algorithm is designed to include a sentiment factor in addition to basic Mov
 	
 	**For Mac & Linux:**
 		
-		cd algo-trading
 		sudo pip install virtualenv 
+		cd algo-trading
 		virtualenv trading
 		source trading/bin/activate
 		
 	**For Windows if you have PIP installed already**
 		
 		pip install virtualenv
+		cd C:\Users\Username\algo-trading\		
 		virtualenv trading
-		C:\Users\Username\trading\Scripts\activate.bat
+		C:\Users\Username\algo-trading\trading\Scripts\activate.bat
 	Make sure to replace "Username" in the path with your username. 
 
 	You will see trading in parentheses in the new command line. This indicates virtual environment is active
