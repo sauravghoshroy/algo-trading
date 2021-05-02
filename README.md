@@ -10,26 +10,32 @@ The algorithm is designed to include a sentiment factor in addition to basic Mov
 4. Click on the View button and note down your API information: Endpoint, API Key ID and Secret Key.
 
 ## Running the algorithm
-1. **Update API information:** From the repo locate the secrets-alpaca.trading file and open with any text editor. Enter your API details in the relevant lines. Make sure to not leave any space between your API information and the = sign. Save the file and close it.
+1. **Clone the repository:** To clone this repository run the following commands in terminal
 
-2. **Setup virtual environment:** It is recommended to use a virtual environment to run the script. You can setup virtual environment using Anaconda or by installing virtualenv from terminal by running the following commands.
+		git clone https://github.com/sauravghoshroy/algo-trading.git
+
+2. **Update API information:** From the repo locate the secrets-alpaca.trading file and open with any text editor. Enter your API details in the relevant lines. Make sure to not leave any space between your API information and the = sign. Save the file and close it.
+
+3. **Setup virtual environment:** It is recommended to use a virtual environment to run the script. You can setup virtual environment using Anaconda or by installing virtualenv from terminal by running the following commands.
 	
 	**For Mac & Linux:**
 		
 		sudo pip install virtualenv 
+		cd algo-trading
 		virtualenv trading
 		source trading/bin/activate
 		
 	**For Windows if you have PIP installed already**
 		
 		pip install virtualenv
+		cd C:\Users\Username\algo-trading\		
 		virtualenv trading
-		C:\Users\Username\trading\Scripts\activate.bat
+		C:\Users\Username\algo-trading\trading\Scripts\activate.bat
 	Make sure to replace "Username" in the path with your username. 
 
 	You will see trading in parentheses in the new command line. This indicates virtual environment is active
 
-3. **Run script:** Run the commands below in the terminal window where virtual environment was activated.
+4. **Run script:** Run the commands below in the terminal window where virtual environment was activated.
 
 	**For Mac and Linux:**
 
